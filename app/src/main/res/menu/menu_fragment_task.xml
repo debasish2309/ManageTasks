@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/hide_completed"
+    android:checkable="true"
+    android:title="Hide Completed"
+    app:showAsAction="never"
+        android:visible="false"/>
+    <item
+        android:id="@+id/generateqr"
+        android:title="Generate QR"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/scan_gallery"
+        android:title="Scan From Gallery"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/scan_camera"
+        android:title="Scan From Camera"
+        app:showAsAction="never"/>
+
+</menu>
